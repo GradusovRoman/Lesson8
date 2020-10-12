@@ -27,7 +27,6 @@ public class Calculator {
         outField.setEditable(false);
         top.add(outField, BorderLayout.CENTER);
 
-        // Listeners
         ActionButtonListener abListener = new ActionButtonListener(outField);
         SubmitButtonListener sbmListener = new SubmitButtonListener(outField);
         ClearButtonListener clbtnListener = new ClearButtonListener(outField);

@@ -12,7 +12,6 @@ public class SubmitButtonListener extends ButtonListener {
         super(outField);
     }
 
-
      //Вычисление выражения. (ScriptEngine для вычисления математических выражений)
     @Override
     public void actionPerformed(ActionEvent e) {

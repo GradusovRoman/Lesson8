@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public abstract class ButtonListener implements ActionListener {
     private JTextField outField;
+
     public ButtonListener(JTextField outField) {
         this.outField = outField;
     }
