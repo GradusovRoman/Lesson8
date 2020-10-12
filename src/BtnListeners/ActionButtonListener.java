@@ -10,7 +10,6 @@ public class ActionButtonListener extends ButtonListener {
         super(outField);
     }
 
-
     @Override
     public void actionPerformed(ActionEvent e) {
         JButton jButton = (JButton) e.getSource();

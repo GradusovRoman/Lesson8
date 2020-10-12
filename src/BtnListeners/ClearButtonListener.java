@@ -9,6 +9,7 @@ public class ClearButtonListener extends ButtonListener {
         super(outField);
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {  //кнопка "С" - очищение строки
         super.getOutField().setText("");
