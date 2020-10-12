@@ -14,7 +14,6 @@ public class SubmitButtonListener extends ButtonListener {
 
 
      //Вычисление выражения. (ScriptEngine для вычисления математических выражений)
-
     @Override
     public void actionPerformed(ActionEvent e) {
         ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
